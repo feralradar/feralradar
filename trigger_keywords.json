@@ -1,0 +1,32 @@
+{
+  "과열/버블": {
+    "irrational exuberance": "비이성적 과열",
+    "asset bubble": "자산 버블",
+    "speculative frenzy": "투기 과열"
+  },
+  "전쟁/지정학": {
+    "war breaks out": "전쟁 발발",
+    "geopolitical tension": "지정학적 긴장",
+    "missile strike": "미사일 공격"
+  },
+  "시장 급변/흐름 전환": {
+    "regime shift": "시장 흐름 전환",
+    "trend reversal": "트렌드 전환",
+    "market crash": "시장 붕괴"
+  },
+  "공급망/원자재/식량": {
+    "supply chain disruption": "공급망 붕괴",
+    "food shortage": "식량 부족",
+    "raw material spike": "원자재 급등"
+  },
+  "경제 지표 이상": {
+    "stagflation": "스태그플레이션 우려",
+    "unexpected inflation": "예상 밖 물가 상승",
+    "jobless spike": "실업률 급등"
+  },
+  "금융 시스템 위험": {
+    "bank run": "뱅크런",
+    "credit freeze": "신용 경색",
+    "debt default": "디폴트"
+  }
+}
