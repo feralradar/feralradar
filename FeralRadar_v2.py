@@ -9,7 +9,10 @@ TELEGRAM_BOT_TOKEN = "8031064296:AAHBxvIyaBDWsmqbloajGUQz8LUdcn-XPzA"
 TELEGRAM_CHAT_ID = "7807708839"
 
 # 키워드 불러오기
-with open("trigger_keywords.json", "r", encoding="utf-8") as f:
+import os
+
+json_path = os.path.join(os.path.dirname(__file__), "trigger_keywords.json")
+with open(json_path, "r", encoding="utf-8") as f:
     keywords = json.load(f)
 
 # RSS 피드 목록 (세계 주요 뉴스)
