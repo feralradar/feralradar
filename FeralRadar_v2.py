@@ -10,7 +10,7 @@ TELEGRAM_CHAT_ID = "7807708839"
 
 # 키워드 불러오기
 import os
-
+import json  # json도 꼭 import 해야 해
 json_path = os.path.join(os.path.dirname(__file__), "trigger_keywords.json")
 with open(json_path, "r", encoding="utf-8") as f:
     keywords = json.load(f)
