@@ -57,6 +57,16 @@ def check_news():
                 send_telegram_message(f"🔔 트리거 감지됨!\n{title}\n{link}")
 
 if __name__ == "__main__":
+    # ✅ 테스트용 메시지
+    test_message = "🚨 URGENT: Banana crisis spreading globally!"
+
+    # ✅ 테스트 감지 실행
+    if keyword_match(test_message):
+        send_telegram_message(f"🔔 트리거 감지됨!\n{test_message}")
+    else:
+        print("❌ 테스트 키워드 미감지: trigger_keywords.json에 'banana crisis'가 없거나 오타 있음")
+
+    # 🔁 이후는 원래 루프 (주석 처리해도 됨)
     while True:
         try:
             check_news()
